@@ -17,9 +17,9 @@ GET http://localhost:3000/auth?email=dat@gmail.com
 DELETE http://localhost:3000/auth/1232
 
 ### Update a user
-PATCH http://localhost:3000/auth/221
+PATCH http://localhost:3000/auth/1
 Content-Type: application/json
 
 {
-  "password": "123"
+  "email": "datblu2003@gmail.com"
 }
