@@ -12,7 +12,6 @@ interface ClassConstructor {
   new (...args: any[]): {};
 }
 
-// Decorator
 export function Serialize(dto: ClassConstructor) {
   return UseInterceptors(new SerializeInterceptor(dto));
 }
