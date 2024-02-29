@@ -1,0 +1,15 @@
+{
+  "price": 30000,
+  "make": "Toyota",
+  "model": "Camry",
+  "year": 2010,
+  "lng": 0,
+  "lat": 0,
+  "mileage": 100000,
+  "user": {
+    "id": 5,
+    "email": "gmail@gmail.com",
+    "password": "8c49235be7671570.fa053ff4e2dd192486ca1fe7d6fd571f323b07501400d544269a99e1c0fd587d"
+  },
+  "id": 2
+}
