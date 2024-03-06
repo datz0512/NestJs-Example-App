@@ -3,8 +3,8 @@ POST http://localhost:3000/reports
 Content-Type: application/json
 
 {
-  "make": "Toyota",
-  "model": "Camry",
+  "make": "Mercedes",
+  "model": "GLC 300",
   "year": 2010,
   "mileage": 100000,
   "lng": 0,
@@ -13,10 +13,12 @@ Content-Type: application/json
 }
 
 ### Approve report
-
-PATCH http://localhost:3000/reports/12
+PATCH http://localhost:3000/reports/7
 Content-Type: application/json
 
 {
   "approved": true
 }
+
+### Get an estimate for the existing car
+GET http://localhost:3000/reports?make=Mercedes&model=GLC300&year=2010&mileage=100000&lng=0&lat=0
