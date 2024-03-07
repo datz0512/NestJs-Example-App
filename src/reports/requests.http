@@ -3,13 +3,13 @@ POST http://localhost:3000/reports
 Content-Type: application/json
 
 {
-  "make": "Mercedes",
-  "model": "GLC 300",
-  "year": 2010,
-  "mileage": 100000,
-  "lng": 0,
-  "lat": 0,
-  "price": 30000
+  "make": "Ford",
+  "model": "Mustang",
+  "year": 2013,
+  "mileage": 120500,
+  "lng": 42,
+  "lat": 47,
+  "price": 50000
 }
 
 ### Approve report
@@ -21,4 +21,4 @@ Content-Type: application/json
 }
 
 ### Get an estimate for the existing car
-GET http://localhost:3000/reports?make=Mercedes&model=GLC300&year=2010&mileage=100000&lng=0&lat=0
+GET http://localhost:3000/reports?make=Ford&model=Mustang&year=2010&mileage=120000&lng=45&lat=44
